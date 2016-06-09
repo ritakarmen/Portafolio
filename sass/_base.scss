@@ -1,0 +1,44 @@
+
+body {
+    overflow-x: hidden;
+    text-align: center;
+}
+
+//fonts
+$font_0: Montserrat;
+$font_1: Helvetica Neue;
+$font_2: Helvetica;
+$font_3: Arial;
+$font_4: sans-serif;
+
+.btn-circle {
+    z-index: 15;
+    width: 70px;
+    height: 70px;
+    padding: 7px 6px;
+    border: 2px solid $white;
+    border-radius: 35px;
+    font-size: 40px;
+    color: $white;
+    background: 0 0;
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+}
+
+@media  screen and (min-width:220px) and (max-width: 768px) {
+	.navbar-toggle {
+    border:1px solid $white;
+    span{
+    	background-color:$white;
+    }
+}
+.navbar-header{
+	background-color:$black;
+}
+.navbar-collapse {
+    background-color:$black;
+    color: $white;
+}
+
+}

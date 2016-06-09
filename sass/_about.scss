@@ -1,0 +1,95 @@
+// .about {
+//   background-color:#2C3E50;
+// } 
+span.name {
+  font-size: 5rem;
+  margin: 0;
+  padding: 3rem 0 0 3rem;
+}
+
+.intro-text .name {
+    display: block;
+    text-transform: uppercase;
+    font-family: $font_0, $font_1, $font_2, $font_3, $font_4;
+    text-shadow: -2px -2px 1px #11094E, 1px -2px 1px #11094E, -2px 1px 1px #11094E, 1px 2px 1px #11094E;;
+    font-size: 1.5em;
+    font-weight: 700;
+    height: 500px;
+    padding-top:90px;
+}
+
+#divider {
+  width: 100%;
+  height: 500px;
+  text-align: center;
+  z-index: 200;
+}
+#divider .divider-bg {
+  background: url("../images/port2.jpg") repeat 0 0 fixed;
+  background-position: 70% -3298.8px;
+  margin: 0 auto;
+  padding: 0;
+  position: absolute;
+  z-index: 200;
+  width: 100%;
+  height: 500px;
+}
+//   .social-icons {
+//   padding-top: 220px;
+// }
+.social-media{
+  padding: 10px;
+  position: relative;
+  z-index: 300;
+  text-align: center;
+  width: 400px;
+  height: 300px;
+}
+
+// .success {
+//   background-color:#2C3E50;
+// } 
+// #divider {
+//   width: 100%;
+//   height: 500px;
+//   text-align: center;
+//   z-index: 200;
+// }
+// #divider .divider-bg {
+//   background: url("../images/codigos.jpg") repeat 0 0 fixed;
+//   background-position: 70% -3298.8px;
+//   margin: 0 auto;
+//   padding: 0;
+//   position: absolute;
+//   z-index: 200;
+//   width: 100%;
+//   height: 500px;
+// }
+//   .social-icons {
+//   padding-top: 220px;
+// }
+// a.social-media {
+//   padding: 10px;
+//   position: relative;
+//   z-index: 300;
+//   text-align: center;
+// }
+
+
+// 	padding:50px;
+// 	height:600px;
+//     color: #fff;
+//     text-shadow: -2px -2px 1px #11094E, 1px -2px 1px #11094E, -2px 1px 1px #11094E, 1px 2px 1px #11094E;
+//     background: url(../images/giphy2.gif)bottom center no-repeat #000;
+//     -webkit-background-size: cover;
+//     -moz-background-size: cover;
+//     background-size: cover;
+
+// }
+
+// .comentario{
+// 	font-size:20px;
+// }
+// .img-circle {
+//     height: 280px;
+// }

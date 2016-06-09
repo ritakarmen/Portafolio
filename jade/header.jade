@@ -1,0 +1,27 @@
+header#myCarousel.carousel.slide(data-ride='carousel')
+		ol.carousel-indicators
+			li.active(data-target='#myCarousel', data-slide-to='0')
+			li(data-target='#myCarousel', data-slide-to='1')
+			li(data-target='#myCarousel', data-slide-to='2')
+			li(data-target='#myCarousel', data-slide-to='3')
+			li(data-target='#myCarousel', data-slide-to='4')
+			a.btn.btn-circle.page-scroll.pulse(href='#portfolio')
+				i.fa.fa-angle-double-down
+		.carousel-inner(role='listbox')
+			.item.active
+				img.fill(src='images/amigas12.jpg', class="img", alt='')
+			.item
+				img.fill(src='images/computadora.jpg', class="img", alt='')
+			.item
+				img.fill(src='images/yopi.jpg', class="img", alt='')
+			.item
+				img.fill(src='images/ritaGrupo.jpg', class="img", alt='')
+			.item
+				img.fill(src='images/laboratoria.jpg', class="img", alt='')
+
+		a.left.carousel-control(href='#myCarousel', role='button', data-slide='prev')
+			span.glyphicon.glyphicon-chevron-left(aria-hidden='true')
+			span.sr-only Previous
+		a.right.carousel-control(href='#myCarousel', role='button', data-slide='next')
+			span.glyphicon.glyphicon-chevron-right(aria-hidden='true')
+			span.sr-only Next

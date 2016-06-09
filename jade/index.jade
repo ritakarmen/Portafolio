@@ -1,0 +1,31 @@
+doctype html
+html(lang="es")
+	head
+		title :::Portafolio:::
+		meta(charset="utf-8")
+		meta(name="viewport",content="whidth=device-width, initial-scale=1.0")
+		link(rel="shortcut icon",href="images/BBTA.png",type="image/png")
+		link(href='css/bootstrap.min.css', rel='stylesheet')
+		link(href='font-awesome/css/font-awesome.min.css', rel='stylesheet', type='text/css')
+		link(href="css/animate.css",rel="stylesheet",media="screen")
+		link(link href="ihover-gh-pages/src/ihover.css",rel="stylesheet")
+		link(href="styles/main.css",rel="stylesheet")
+		link(href="css/main.css",rel="stylesheet",media="screen")
+		
+	
+	body#page-top.index
+				include navegador.jade
+				include header.jade
+				include portafolio.jade
+				include about.jade
+				include conocimiento.jade
+				include formulario.jade
+				include imagenes.jade
+				include footer.jade
+	
+		script(src='js/lineaTiempo.js')
+		script(src="js/creative.js")
+		script(src='js/jquery.js')
+		script(src='js/bootstrap.min.js')
+		
+
